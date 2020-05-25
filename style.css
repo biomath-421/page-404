@@ -1,0 +1,59 @@
+body{
+background-color: rgb(11,12,11);
+background-image: url("univers.png");
+background-attachment: fixed;
+vertical-align: middle;
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+main{
+width: 300px;
+font-size: 25px;
+background-color:rgb(224, 198, 148);
+border-radius: 15px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+margin: 45px;
+border-radius: 10px;
+background: #d8c387;
+box-shadow: inset 5px 5px 20px #887132, 
+            inset -5px -5px 20px #c7ae68;
+}
+img{
+height: 150px;
+width: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+}
+a:link{
+text-decoration: none;
+color: rgb(21, 110, 170);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(36, 58, 77)
+    }
+a:hover{
+    text-decoration: none;
+color: rgb(197, 136, 136)
+}
+footer{
+    background-color: #d8c387;
+    border-radius: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 10px
+}
